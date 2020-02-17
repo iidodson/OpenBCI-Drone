@@ -3,15 +3,11 @@ OpenBCI_Python
 
 The Python software library designed to work with OpenBCI hardware.
 
-Please direct any questions, suggestions and bug reports to the github repo at: https://github.com/OpenBCI/OpenBCI_Python
-
 ## Dependancies:
 
 * Python 2.7 or later (https://www.python.org/download/releases/2.7/)
 * Numpy 1.7 or later (http://www.numpy.org/)
 * Yapsy -- if using pluging via `user.py` (http://yapsy.sourceforge.net/)
-
-NOTE: For comprehensive list see requirments.txt: (https://github.com/OpenBCI/OpenBCI_Python/blob/master/requirements.txt)
 
 OpenBCI 8 and 32 bit board with 8 or 16 channels.
 
@@ -30,12 +26,6 @@ On linux, assuming `hci0` is the name of your bluetooth adapter:
 `sudo bash -c 'echo 9 > /sys/kernel/debug/bluetooth/hci0/conn_min_interval'`
 
 `sudo bash -c 'echo 10 > /sys/kernel/debug/bluetooth/hci0/conn_max_interval'`
-
-# Audience:
-
-This python code is meant to be used by people familiar with python and programming in general. It's purpose is to allow for programmers to interface with OpenBCI technology directly, both to acquire data and to write programs that can use that data on a live setting, using python.
-
-If this is not what you are looking for, you can visit http://openbci.com/downloads and browse other OpenBCI software that will fit your needs.
 
 ## Functionality
 
